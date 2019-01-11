@@ -1,0 +1,45 @@
+/*============================================================================================*/
+/* COLOR SCHEME 2 */
+/*============================================================================================*/
+/* HEADER*/
+header {background-color:#fff;border-bottom: 1px solid #006188;}
+ul#top_nav li {border-left: 1px solid #217090;}
+ul#top_nav li a{color:#b4d3e0;}
+nav {background-color:#004e6d;}
+
+#main-features {background:#005b7f url(../img/bg_sub-header_2.png) repeat 0 0;color:#b4d3e0;}
+.feature i{border:2px solid #fff;color:#1abc9c;}
+.divider_top{background:url(../img/top_divider.png) repeat-x center bottom;}
+.divider_top_black{background:url(../img/top_divider_blue.png) repeat-x center bottom;}
+#sub-header{color:#fff;background:#0076a3 url(../img/banners/1.jpg) repeat 0 0;}
+
+/* MENU + MEGAMENU*/
+.sb-icon-search, .sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {background: #004e6d;}
+.sf-menu .sf-mega {background: #003f58;}
+ul.sf-menu li a:hover{color:#30d9a4;}
+.sf-menu ul li {background: #003f58;}
+.sf-menu ul li a {background: #003f58;}
+.sf-menu ul li a:hover {background: #30d9a4;color:#111;}
+.sf-menu li:hover,
+.sf-menu li.sfHover {background: #003f58;color:#fff;}
+.sf-menu .sf-mega ul.mega_submenu li a{color:#fff;}
+.sf-mega h5{border-bottom:1px solid #336578;}
+.sf-menu .sf-mega ul.mega_submenu li{border-bottom: 1px dotted #336578;}
+
+/* FOOTER */
+footer hr{border-color:#217090;}
+input.form-control#email_newsletter {background-color:#0076a3;color: #fff;}
+input.form-control#email_newsletter::-moz-placeholder { color: #fff; opacity:0.5;}
+input.form-control#email_newsletter::-webkit-input-placeholder {color: #fff; opacity:0.5;}
+footer {background:#005b7f; color:#fff;}
+#nav-footer ul li a{color:#b4d3e0;}
+#nav-footer ul li a:hover{color:#FF9;}
+ul#follow_us  li a{border: 2px solid #b4d3e0;}
+#copy_right{background-color:#004e6d;color:#fff;}
+.phone{color: #FF9}
+
+/* COMMON*/
+#directions { background-color:#005b7f; }
+ #login_bg{background:#0076a3 url(../img/bg_sub-header.png) repeat 0 0;}
+ #wizard_bg{background:#0076a3 url(../img/bg_sub-header.png) repeat 0 0;}

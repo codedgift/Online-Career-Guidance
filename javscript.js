@@ -1,0 +1,3 @@
+	$.ajaxSetup({
+		return false
+	});

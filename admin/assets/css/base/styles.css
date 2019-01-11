@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0; padding:0; font-size:12px; font-family:Arial, Helvetica, sans-serif; background-image:url(../../img/bg.jpg); background-repeat:repeat} hr{color:#CCC; background-color:#CCC}
+.container{width:1100px; height:auto; min-height:600px; margin:30px auto 10px auto; border:#CCC solid 1px; border-radius:10px; background-image:url(../../img/bg2.jpg); background-repeat:repeat; box-shadow:4px 4px 4px #000;}
+a{text-decoration:none; color:#333} a:hover{text-decoration:none; color:#777} a img{border:none} .lft{float:left} .rgt{float:right} .clr{clear:both}
+.btn{background-image:url(../../img/btn.gif); font-size:12px; color:#FFF; padding:5px; width:150px; border:#ccc solid 1px; border-radius:4px}
+.btn:hover{background:#444; font-size:12px; color:#FFF; padding:5px; width:150px; border:#ccc solid 1px; border-radius:4px} .lnkNoRef{cursor:pointer}
+.txt{width:240px; background-color:#EEE; border-radius:3px; padding:7px; border:#CCC solid 1px; color:#333}
+.ddl{width:255px; background-color:#EEE; border-radius:3px; padding:7px; border:#CCC solid 1px; color:#333}
+.txt2{width:150px; background-color:#EEE; border-radius:3px; padding:7px; border:#CCC solid 1px; color:#333}
+.ddl2{width:105px; background-color:#EEE; border-radius:3px; padding:7px; border:#CCC solid 1px; color:#333}
+
+.header{width:100%; height:110px}
+.nav{width:100%; background-color:#CCC; height:30px; padding:5px 0px 5px 0px; border:#EEE 1px solid; border-top:#FFF 1px solid; box-shadow:0 4px 4px #000; font-size:14px}
+.bdy{width:970px; height:auto; border:#FFF 1px solid; border-radius:5px; margin:25px auto 0px auto; padding:10px; background-image:url(../../img/bg.gif); background-repeat:repeat; box-shadow:4px 4px 4px #000; min-height:350px; margin-bottom:30px}
+
+.headerCont{width:90%; height:95px; margin:0px auto 0px auto} .headerTop{width:100%; height:50px; padding:10px 0px 10px 0px; font-size:36px; color:#FFF; text-shadow:#000 2px 2px} .headerDwn{width:100%; height:40px}
+
+.navCont{width:90%; height:auto; margin:10px auto 10px auto} 
+.navEachA{width:133px; height:25px; padding:5px; padding-top:10px; background-color:#CCC; border-radius:5px 5px 0px 0px; float:left; margin-right:5px; border-bottom:#CCC solid 1px; color:#333; text-align:center; font-size:18px}
+.navEach{width:124px; height:25px; padding:5px; padding-top:10px; background-color:#777; border-radius:5px 5px 0px 0px; float:left; margin-right:5px; color:#FFF; text-align:center; font-size:16px}
+.navEach:hover{width:123px; height:26px; padding:5px; padding-top:10px; background-color:#999; border:#CCC solid 1px; border-radius:5px 5px 0px 0px; float:left; margin-right:5px; color:#FFF; text-align:center; font-size:16px; margin-top:-3px;}
+
+.headings{width:100%; height:auto; padding:5px 0px 5px 0px; text-align:center; font-size:16px}
+.headings2{width:100%; height:auto; padding:5px 0px 5px 0px; text-align:left; font-size:28px}
+
+.indexLft{width:55%; float:left; margin:10px; height:400px; margin-top:-1px}
+.indexRgt{width:40%; float:left; margin:10px; height:400px; margin-top:-5px}
+.indexRoom{width:100%; height:310px; padding:5px 0px 5px 0px; background-color:#EEE; border-radius:5px; border:solid 1px #CCC; overflow-y:auto; overflow-x:hidden}
+.indexRoomSum{width:100%; height:20px; padding:5px 0px 5px 0px; background-color:#EEE; border-radius:5px; border:solid 1px #CCC; text-align:center; margin-top:10px; font-weight:bold}
+
+.skyHead{background-image:url(../../img/btn.png); width:98%; height:20px; padding:5px 3px 5px 3px; font-size:13px}
+
+.login{width:56%; margin:80px auto 10px auto; height:200px; border:#999 solid 1px; border-radius:5px }
+
+.statusGood{background:#41D3A8; border:#096 solid 1px; padding:7px; color:#030; margin-bottom:10px;}
+.statusBad{background-color:#FF8080; border:#FF5959 solid 1px; padding:7px; color:#900}
+.statusInfo{background-color:#EEF1F9; border:#CCC solid 1px; padding:7px; color:#0070A6;}
+#loginStatus{margin-top:-19px} #signupStatus{margin-top:10px}
+
+.brngNames{background-color:#FFF} .brngNames:hover{background-color:#DDD}
+#res2{position:absolute; z-index:2; background-color:#FFF; color:#333; width:260px; box-shadow:2px 2px 4px #000}
+
+.popDiv{width:700px; margin:-50px auto 20px 100px; position:absolute; z-index:1000; background:#FCFCFC; border:#999 solid 2px; height:auto; border-radius:5px; display:none; box-shadow:2px 2px 6px #333; max-height:470px; overflow-y:auto}
+
+.popDelete{margin-right:20px;} .popDelete:hover{margin-right:20px; cursor:pointer; border:#CCC solid 1px; box-shadow:1px 1px 2px #000}
+
+.btnLnk{} .btnLnk:hover{cursor:pointer; box-shadow:1px 1px 2px #000}
+
+.saleLeft{width:60%; height:370px; float:left; border:#CCC solid 1px; background-color:#EEE; overflow-y:auto; border-radius:5px} .saleRgt{width:36%; background-color:#EEE; height:370px; float:right; border:#CCC solid 1px; border-radius:5px; margin-right:18px}
+
+#drags{ cursor: move; }
+
+.setupContent{width:60%; height:auto; background-color:#FCFCFC; padding:10px; float:left; border:solid #999 2px; margin:20px; border-radius:5px; font-size:14px; line-height:30px}
+.setupHelp{width:26%; height:auto; background-color:#FCFCFC; padding:10px; float:right; border:solid #999 2px; margin:20px; border-radius:5px; font-size:14px; line-height:30px}
+
+/* Opera v11.10+ */
+background-image:-o-linear-gradient(-90deg,rgb(0,175,151) 0%,rgb(0,119,94) 100%);
+background-image:linear-gradient(-90deg,rgb(0,175,151) 0%,rgb(0,119,94) 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #ff00af97,endColorstr = #ff00775e,GradientType = 0);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr = #ff00af97,endColorstr = #ff00775e,GradientType = 0)";}
+.sidelnk {list-style:none; margin:0 !important;}
+.sidelnk li a:link, .sidelnk li a:visited {padding:8px; border-bottom:1px dotted #ddd; font-size:13px; display:block; text-decoration:none;}
+.sidelnk li a:hover { background-color:#BDDCD5; color:#000;}
+.sidelnk li a.active {background-color:#00775E; color:#fff; border-left:3px solid #eee;}
+.wiown{ width:290px; float:left; border:1px dotted #ccc;}
+.wiowe{ width:290px; float:right; border:1px dotted #ccc;}
+.table {width: 100%;}
+table {border-collapse: collapse; border-spacing: 0; max-width: 100%; }
+.table thead:first-child tr th, .table thead:first-child tr td {border-top: 0 none;}
+.table thead th {vertical-align: bottom; background-image:url(../../img/btn.png); background-repeat:repeat-x}
+.table th { font-size:14px;}
+.table td {border-top: 1px solid #DDDDDD; line-height: 18px; padding: 8px; text-align: left; vertical-align: top; font-size:13px;}
+.table th {border-top: 1px solid #DDDDDD; line-height: 18px; padding: 6px; text-align: left; vertical-align: top; font-weight:100 }
+.table .strip {background-color:#00775E; color:#fff; background-image:url(../../img/tablehead.png); background-repeat:repeat; font-size:14px; color:#FFF}
+.stripes { background-image:url(../../img/tablebg.png); background-repeat:repeat}
+.brd_top {border-top:1px solid #e4e4e4;}
+.table table-striped tr{ background-image:url(../../img/btn.gif); background-repeat:repeat-x} .table table-striped tr:hover{ background-image:url(../../img/btn.gif); background-repeat:repeat-x}
+tr{background-image:url(../../img/tablebg.png); background-repeat:repeat}
+tr:hover{background-image:url(../../img/tb_strpes.png); background-repeat:repeat}
+tr#nope{ background-color:#CCC}
+tr#nope:hover{ background-color:#CCC}
+td#total{ background-color:#FFF}
+mine{background-color:#000}
+
+
+div#skyRoom{z-index:10; width:50px; height:40px; margin:13px; float:left; font-size:16px; text-align:center; box-shadow:1px 1px 3px #000; padding-top:10px}
+div#skyRoom:hover{cursor:crosshair;}
+div#skyRoom > div#skyRoomDet {display:none; position:absolute; z-index:3000; background-color:#FFF; padding:5px; border:#CCC solid 1px; border-radius:5px; width:150px; box-shadow:2px 2px 8px #111; font-size:12px; text-align:left; font-weight:500; margin-top:20px}
+div#skyRoom:hover div#skyRoomDet {display:inline}
+

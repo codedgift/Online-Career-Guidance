@@ -60,7 +60,7 @@ $active = "inbox";
 								
 								<?php 
 								
-								$sql = main_query("SELECT * FROM inbox WHERE cat_id='".$counsellor_id."'");
+								$sql = main_query("SELECT * FROM inbox WHERE cat_id='".$counsellor_id."' order by id desc");
 								
 									while($row_msg = $sql->fetch_assoc()){
 										$id = $row_msg['id'];

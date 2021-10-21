@@ -7,8 +7,7 @@ if (!defined('BASEPATH'))
  * Pages
  * 
  * @package   
- * @author Ayodeji Niyi-Adesola
- * @copyright HostNowNow.com
+ * @author Gift Amah
  * @version 2016
  * @access public
  */
